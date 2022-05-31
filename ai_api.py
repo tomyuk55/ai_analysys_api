@@ -1,5 +1,5 @@
 #
-#
+# WEB API をカプセル化して実装したクラス
 #
 
 import os, sys

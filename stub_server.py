@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+#
+# APIリクエストに対して、ダミーデータを返すスタブAPIサーバー
+#
 
 from http.server import HTTPServer, BaseHTTPRequestHandler, CGIHTTPRequestHandler
 import json
@@ -35,5 +38,3 @@ if __name__ ==  '__main__':
     
     httpd = HTTPServer(('', 8080), StubRequestHandler)
     httpd.serve_forever()
-
-

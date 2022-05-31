@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+#
+# スタブWEBサーバーを利用して、実装をテストする
+# サンプル
+#
 
 import os
 from ai_api import AiApi
